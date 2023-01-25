@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbarList{
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #25715f;
+    padding: 0 2rem;
+    color: white;
+}
+
+.home{
+    text-decoration: none;
+    color: white;
+}
+.add{
+    text-decoration: none;
+    color: white;
+}
